@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react'; //https://www.npmjs.com/package/google-maps-react
+//import Menu from './Menu';
 
 export class MapContainer extends Component {
   //enviando dados via state (dinâmico)
@@ -62,11 +63,12 @@ export class MapContainer extends Component {
           <div>
             <h4>{this.state.selectedPlace.name}</h4>
           </div>
-          </InfoWindow>                 
+          </InfoWindow>       
       </Map>
     );
   }
 }
+
 
 export default GoogleApiWrapper({
   apiKey: ('AIzaSyDU68xXJtiOxBu5noq4egQpKUHkemmfrtw')
