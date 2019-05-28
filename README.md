@@ -11,6 +11,6 @@ Projeto de conclusão de curso Nanodegree Front-end avançcado. Instruções:
 
 ## Instruções
 
-* cloncar este repositório com `git clone https://github.com/gadernal/udacity-projeto-final`
+* clonar este repositório com `git clone https://github.com/gadernal/udacity-projeto-final`
 * instalar todas as dependências com o comando `npm install`
 * iniciar o servidor de desenvolvimento com `npm start` 
